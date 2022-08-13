@@ -1,0 +1,127 @@
+a{
+    text-decoration: none;
+    color: #fff;
+  }
+  /* toggle btn */
+  .toggle-button {
+    width: 70%;
+  }
+  .toggle-label,
+  .toggle {
+    height: 2.8rem;
+    border-radius: 100px;
+  }
+  .toggle-label {
+    margin: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+  }
+  .toggle {
+    position: absolute;
+    width: 50%;
+    background-color: #008000;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  .names {
+    width: 65%;
+    margin-left: 17.5%;
+    margin-top: 0.5%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+  }
+  .talent,
+  .fan {
+    margin-top: 10px;
+  }
+  /* -------- Switch Styles ------------*/
+  [type="checkbox"] {
+    display: none;
+  }
+  /* Toggle */
+  [type="checkbox"]:checked + .btn-toggle .toggle {
+    transform: translateX(100%);
+    background-color: #008000;
+  }
+  
+  /* form */
+  .form-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(48, 44, 44);
+  }
+  h3 {
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  label {
+    margin-left: 16px;
+    font-weight: 400;
+    margin-bottom: 3px;
+    color: #fff;
+  }
+  input,
+  label {
+    display: block;
+    text-transform: capitalize;
+  }
+  input {
+    padding: 10px;
+    border-radius: 30px;
+    border: 3px solid rgb(97, 221, 97);
+    outline: none;
+    width: 100vh;
+    margin-bottom: 16px;
+    background: transparent;
+    color: #fff;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  .checkBox input[type="checkBox"] {
+    height: 16px;
+    width: 16px;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  [type="checkbox"]:checked {
+    background-color: #008000;
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .agree {
+    color: #fff;
+    margin-right: 5px;
+  }
+  .conditions {
+    color: #008000;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn button {
+    width: 70%;
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+  }
+  

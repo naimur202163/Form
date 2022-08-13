@@ -9,9 +9,8 @@ export default function SignIn() {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
-    console.log()
+    console.log(JSON.stringify(data))
     console.log(data)};
-
   return (
     <div className="form-control">
       <div>
@@ -22,8 +21,8 @@ export default function SignIn() {
             <label className="toggle-label" for="switch">
               <div className="toggle"></div>
               <div className="names">
-                <p className="fan">Fan Signup</p>
-                <p className="talent">Talent Signup</p>
+                <p className="fan" ><a href="/signin">Fan Signup</a></p>
+                <p className="talent"><a href="/signup">Talent Signup</a> </p>
               </div>
             </label>
           </div>
@@ -72,7 +71,7 @@ export default function SignIn() {
                   <span className="conditions">Terms and conditions</span>
                 </bold>
                 <div className="btn">
-                  <button type="submit">SignUp</button>
+                  <button type="submit">Sign Up</button>
                 </div>
               </div>
             </div>
