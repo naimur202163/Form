@@ -38,9 +38,12 @@ export default function Home() {
               </div>
             </Col>
             <Col className="mobile-p" sm={6} xs={6}>
-                <div className="mobile">
+              <div className="pt-5">
+              <div className="mobile ">
                        
-                </div>
+                       </div>
+              </div>
+              
 
             </Col>
           </Row>
