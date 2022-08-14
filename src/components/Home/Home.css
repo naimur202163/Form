@@ -1,21 +1,38 @@
-.content{
-    padding-top: 4rem;
-    background-color: #EFFAFA;
-    height: 100vh;
+.content {
+  padding-top: 4rem;
+  background-color: #effafa;
+  height: 100vh;
 }
 .banner-heading {
-    padding-bottom: 1rem;
-    font-weight: bold;
-    font-size: 2.6rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: 2.6rem;
 }
 .logos {
-    margin-top: 1rem;
-    height: 70px;
-    width: 170px;
-    margin-right: 1rem;
-    border-radius: .7rem;
+  margin-top: 1rem;
+  height: 70px;
+  width: 170px;
+  margin-right: 1rem;
+  border-radius: 0.7rem;
 }
-.app-logo{
-   
-    display: flex;
+.app-logo {
+  display: flex;
+}
+
+.mobile-p {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile {
+  transform: matrix(0.7, 0.35, -1.47, 0.69, 0, 0);
+  /* transform: rotate(75deg); */
+  width: 210px;
+  height: 200px;
+  left: 407.6px;
+  top: 0px;
+  /* position: absolute; */
+  background: #fff;
 }

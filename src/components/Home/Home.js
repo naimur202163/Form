@@ -1,11 +1,10 @@
 import React from "react";
-import Navigation from "../Navbar/Navbar";
-import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
-import apple from "../../assets/google.jpg";
+import Row from "react-bootstrap/Row";
 import google from "../../assets/apple.jpg";
-import mask from '../../assets/Mask Group.png'
+import apple from "../../assets/google.jpg";
+import Navigation from "../Navbar/Navbar";
 import "./Home.css";
 export default function Home() {
   return (
@@ -38,9 +37,9 @@ export default function Home() {
                 </div>
               </div>
             </Col>
-            <Col sm={6} xs={6}>
-                <div className="">
-                        <img src={mask} alt=""/>
+            <Col className="mobile-p" sm={6} xs={6}>
+                <div className="mobile">
+                       
                 </div>
 
             </Col>
